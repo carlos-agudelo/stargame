@@ -7,7 +7,8 @@ const cookieSession = require('cookie-session')
 const bodyParser = require('body-parser')  
 const passport = require('passport')
 
-const publicRoot = "C:/Users/carlos.agudelo/Desktop/Files/html/gr/dist"
+//const publicRoot = "C:/Users/carlos.agudelo/Desktop/Files/html/gr/dist"
+const publicRoot = "D:/W/Ff/stargame/dist"
 
 app.use(express.static(publicRoot))  
 
